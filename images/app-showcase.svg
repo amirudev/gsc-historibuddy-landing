@@ -1,0 +1,53 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" rx="20" ry="20" fill="#f5f7ff" />
+  
+  <!-- Phone Mockup 1 - Camera View -->
+  <rect x="30" y="50" width="240" height="300" rx="20" ry="20" fill="#1a1a2e" />
+  <rect x="40" y="60" width="220" height="280" rx="15" ry="15" fill="white" />
+  
+  <!-- App Header -->
+  <rect x="40" y="60" width="220" height="50" rx="15" ry="15" fill="#6200ea" />
+  <circle cx="65" cy="85" r="15" fill="#9d46ff" />
+  <path d="M60 75 L60 95 L65 95 L65 85 L70 85 L70 95 L75 95 L75 75 L70 75 L70 80 L65 80 L65 75 Z" fill="white" stroke="none" stroke-width="0.5" />
+  <text x="90" y="90" font-family="Arial" font-size="12" font-weight="bold" fill="white">HistoriBuddy</text>
+  
+  <!-- Camera View -->
+  <rect x="50" y="120" width="200" height="150" rx="10" ry="10" fill="#e0e0e0" />
+  <circle cx="150" cy="280" r="15" fill="#6200ea" />
+  <circle cx="150" cy="280" r="8" fill="white" />
+  
+  <!-- Phone Mockup 2 - Chat View -->
+  <rect x="330" y="50" width="240" height="300" rx="20" ry="20" fill="#1a1a2e" />
+  <rect x="340" y="60" width="220" height="280" rx="15" ry="15" fill="white" />
+  
+  <!-- App Header -->
+  <rect x="340" y="60" width="220" height="50" rx="15" ry="15" fill="#6200ea" />
+  <circle cx="365" cy="85" r="15" fill="#9d46ff" />
+  <path d="M360 75 L360 95 L365 95 L365 85 L370 85 L370 95 L375 95 L375 75 L370 75 L370 80 L365 80 L365 75 Z" fill="white" stroke="none" stroke-width="0.5" />
+  <text x="390" y="90" font-family="Arial" font-size="12" font-weight="bold" fill="white">HistoriBuddy</text>
+  
+  <!-- Chat Interface -->
+  <rect x="350" y="120" width="200" height="180" rx="10" ry="10" fill="#f8f8f8" />
+  
+  <!-- Mascot Avatar -->
+  <circle cx="370" cy="140" r="15" fill="#ff6d00" />
+  <circle cx="365" cy="136" r="3" fill="white" />
+  <circle cx="375" cy="136" r="3" fill="white" />
+  <path d="M365 146 C365 146, 370 150, 375 146" stroke="white" stroke-width="1.5" fill="transparent" />
+  
+  <!-- Chat Bubbles -->
+  <rect x="390" y="130" width="150" height="30" rx="10" ry="10" fill="#e8eaff" />
+  <rect x="390" y="170" width="130" height="30" rx="10" ry="10" fill="#e8eaff" />
+  <rect x="390" y="210" width="150" height="30" rx="10" ry="10" fill="#e8eaff" />
+  <rect x="390" y="250" width="100" height="30" rx="10" ry="10" fill="#e8eaff" />
+  
+  <!-- Text Input Area -->
+  <rect x="350" y="310" width="200" height="20" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
+  <circle cx="535" cy="320" r="8" fill="#6200ea" />
+  <text x="532" y="324" font-family="Arial" font-size="12" font-weight="bold" fill="white">→</text>
+  
+  <!-- Connection Line -->
+  <path d="M250 200 C280 200, 300 200, 330 200" stroke="#6200ea" stroke-width="3" stroke-dasharray="5,5" fill="transparent" />
+  <polygon points="325,195 335,200 325,205" fill="#6200ea" />
+</svg> 

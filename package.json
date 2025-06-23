@@ -1,0 +1,26 @@
+{
+  "name": "historibuddy-landingpage",
+  "version": "1.0.0",
+  "description": "Landing page for HistoriBuddy, an AI-powered app for historical exploration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "landing-page",
+    "historibuddy",
+    "history",
+    "ai",
+    "flutter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
