@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HistoriBuddy - AI-Powered Historical Exploration</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +15,7 @@
     <header>
         <nav class="container">
             <div class="logo">
-                <img src="images/logo.svg" alt="HistoriBuddy Logo">
+                <img src="images/logo-removebg.png" alt="HistoriBuddy Logo">
                 <h1>HistoriBuddy</h1>
             </div>
             <div class="nav-links">
@@ -22,10 +23,13 @@
                 <a href="#how-it-works">How It Works</a>
                 <a href="#perfect-for">Perfect For</a>
                 <a href="#tech">Tech</a>
-            </div>
-            <div class="cta-buttons">
                 <a href="#download" class="btn btn-primary">Download App</a>
-                <button class="menu-toggle">
+            </div>
+            <div class="nav-right">
+                <button class="mode-toggle" id="modeToggle" aria-label="Switch mode" title="Switch light/dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -45,7 +49,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/hero-app.svg" alt="HistoriBuddy App Demo">
+                <img src="" alt="HistoriBuddy App Demo">
             </div>
         </div>
     </section>
@@ -252,27 +256,27 @@
             </div>
             <div class="tech-grid">
                 <div class="tech-item">
-                    <img src="images/flutter-logo.svg" alt="Flutter Logo">
+                    <img src="images/flutter-logo.png" alt="Flutter Logo">
                     <h3>Flutter</h3>
                     <p>Cross-platform compatibility</p>
                 </div>
                 <div class="tech-item">
-                    <img src="images/google-ai-logo.svg" alt="Google AI Studio Logo">
+                    <img src="images/google-ai-logo.png" alt="Google AI Studio Logo">
                     <h3>Google AI Studio</h3>
                     <p>Mascot generation</p>
                 </div>
                 <div class="tech-item">
-                    <img src="images/api-logo.svg" alt="API Logo">
-                    <h3>Real-time API</h3>
+                    <img src="images/vertex-logo.png" alt="Vertex AI Logo">
+                    <h3>Vertex AI</h3>
                     <p>Historical information retrieval</p>
                 </div>
                 <div class="tech-item">
-                    <img src="images/privacy-logo.svg" alt="Privacy Logo">
-                    <h3>On-device Processing</h3>
+                    <img src="images/tensorflow-logo.png" alt="TensorFlow Logo">
+                    <h3>TensorFlow</h3>
                     <p>Enhanced privacy protection</p>
                 </div>
                 <div class="tech-item">
-                    <img src="images/firebase-logo.svg" alt="Firebase Logo">
+                    <img src="images/firebase-logo.png" alt="Firebase Logo">
                     <h3>Firebase</h3>
                     <p>Secure authentication</p>
                 </div>
@@ -323,11 +327,13 @@
                 <p>Start your historical journey today</p>
             </div>
             <div class="download-options">
-                <a href="#" class="download-btn">
-                    <img src="images/app-store.svg" alt="Download on App Store">
+                <a href="#" class="download-btn appstore-btn">
+                    <img src="images/apple-logo.png" alt="Download on App Store">
+                    <span>Download on the<br><strong>App Store</strong></span>
                 </a>
-                <a href="#" class="download-btn">
-                    <img src="images/google-play.svg" alt="Get it on Google Play">
+                <a href="#" class="download-btn playstore-btn">
+                    <img src="images/google-play.png" alt="Get it on Google Play">
+                    <span>Get it on<br><strong>Google Play</strong></span>
                 </a>
             </div>
         </div>
@@ -337,7 +343,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="images/logo.svg" alt="HistoriBuddy Logo">
+                    <img src="images/logo-removebg.png" alt="HistoriBuddy Logo">
                     <h2>HistoriBuddy</h2>
                     <p>Making history interactive and accessible</p>
                 </div>
